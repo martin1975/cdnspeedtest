@@ -35,6 +35,11 @@ using standard browsers using the WebDriver automation framework. Several tests 
 order. All the timings are displayed. Finally, we remove all timings outside a 95% confidence zone before displaying
 mean values for each page and browser.
 
+Run
+---
+
+    php webdriver/index.php
+
 Details
 -------
 
