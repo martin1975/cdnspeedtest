@@ -43,7 +43,7 @@ Installing
   launch it (needed in the default code configuration; see `webdriver/index.php`, `$webDrivers` to modify default
   behavior).
 
-- Get [Selenium WebDriver (aka Selenium)][http://docs.seleniumhq.org/docs/03_webdriver.jsp "Selenium"), install and
+- Get [Selenium WebDriver (aka Selenium)](http://docs.seleniumhq.org/docs/03_webdriver.jsp "Selenium"), install and
   launch it (optional; see `webdriver/index.php`, `$webDrivers` to modify default behavior).
 
 - Get [any other WebDriver](https://code.google.com/p/selenium/w/list?q=label:WebDriver "Selenium WebDrivers"), install
