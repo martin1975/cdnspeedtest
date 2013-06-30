@@ -1,9 +1,9 @@
 CDN Speed Test
 ==============
 
-CDN Speed Test is aimed to test the performance of the
-[https://www.ovh.com/fr/cdn/](OVH CDN "OVH Content Delivery Network") in terms of delivery speed as compared to the same
-content (or a similar one) loaded without the help of the CDN.
+CDN Speed Test is aimed to test the performance of the [OVH CDN](https://www.ovh.com/fr/cdn/ "OVH Content Delivery
+Network") in terms of delivery speed as compared to the same content (or a similar one) loaded without the help of the
+CDN.
 
 Installing
 ----------
