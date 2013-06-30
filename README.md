@@ -5,6 +5,14 @@ CDN Speed Test is aimed to test the performance of the [OVH CDN](https://www.ovh
 Network") in terms of delivery speed as compared to the same content (or a similar one) loaded without the help of the
 CDN.
 
+Principle
+---------
+
+The principle is to load the same content in miscellaneous CDN vs. dedicated server configurations. Page loading is made
+using standard browsers using the WebDriver automation framework. Several tests are performed in each test run in random
+order. All the timings are displayed. Finally, we remove all timings outside a 95% confidence zone before displaying
+mean values for each page and browser.
+
 Installing
 ----------
 
@@ -37,14 +45,6 @@ Installing
 
 - Launch each test at least (using your favorite browser or running this performance suite) in order to force the CDN
   data upload.
-
-Principle
----------
-
-The principle is to load the same content in miscellaneous CDN vs. dedicated server configurations. Page loading is made
-using standard browsers using the WebDriver automation framework. Several tests are performed in each test run in random
-order. All the timings are displayed. Finally, we remove all timings outside a 95% confidence zone before displaying
-mean values for each page and browser.
 
 Run
 ---
