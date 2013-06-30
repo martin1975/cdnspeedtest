@@ -75,26 +75,31 @@ There are 4 test configurations (here with default values):
 
 <table>
     <tr>
+        <th>Configuration Type<br />HTML / Resources</td>
         <th>Default web page</td>
         <th>Default Resources Host</td>
     </tr>
 
     <tr>
+        <td>CDN / CDN</td>
         <td>http://cdn.test.korolczuk.fr/from-host.html</td>
         <td>http://cdn.test.korolczuk.fr/</td>
     </tr>
 
     <tr>
-        <td>http://cdn.test.korolczuk.fr/from-cdn.html</td>
+        <td>Server / CDN</td>
+        <td>http://test.korolczuk.fr/from-cdn.html</td>
         <td>http://cdn.test.korolczuk.fr/</td>
     </tr>
 
     <tr>
+        <td>Server / Server<br />(same host both)</td>
         <td>http://test.korolczuk.fr/from-host.html</td>
         <td>http://test.korolczuk.fr/</td>
     </tr>
 
     <tr>
+        <td>Server / Server<br />(two different hosts)</td>
         <td>http://test.korolczuk.fr/from-server.html</td>
         <td>http://server.test.korolczuk.fr/</td>
     </tr>
@@ -124,4 +129,4 @@ results, when performed manually using the developer tools included in browsers.
 Contact
 -------
 
-For any remark or comment, just drop an email to cdnspeedtest@korolczuk.net.
+For any remark or comment, just drop a mail to cdnspeedtest@korolczuk.net.
