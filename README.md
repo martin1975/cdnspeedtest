@@ -13,6 +13,12 @@ using standard browsers using the WebDriver automation framework. Several tests 
 order. All the timings are displayed. Finally, we remove all timings outside a 95% confidence zone before displaying
 mean values for each page and browser.
 
+Remarks
+-------
+
+Please notice WebDriver has an important overhead. However, this does not affect the relative difference between
+results, when performed manually using the developer tools included in browsers.
+
 Installing
 ----------
 
@@ -123,14 +129,6 @@ An example of the console output:
     http://test.korolczuk.fr/from-cdn.html           774.8 ms   +112.2 ms    528.8 ms    +62.6 ms
     http://test.korolczuk.fr/from-host.html          662.5 ms     +0.0 ms    493.1 ms    +26.9 ms
     http://test.korolczuk.fr/from-server.html        662.9 ms     +0.4 ms    466.2 ms     +0.0 ms
-
-
-Remarks
--------
-
-Please notice WebDriver has an important overhead. However, this does not affect the relative difference between
-results, when performed manually using the developer tools included in browsers.
-
 
 Contact
 -------
