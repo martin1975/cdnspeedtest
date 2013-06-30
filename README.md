@@ -59,10 +59,8 @@ Each test page is made of one HTML content and a set of CSS stylesheets and PNG 
 There are 3 different web pages:
 
 - `from-host.html`: the HTML content as well as resources are loaded from the current host (server or CDN);
-
 - `from-cdn.html`: the HTML content is intended to be loaded from the dedicated server, while all the resources are
   loaded from the CDN;
-
 - `from-server.html`: the HTML content is intended to be loaded from the dedicated server, while all the resources are
   loaded from the CDN.
 
@@ -77,32 +75,28 @@ There are 4 test configurations (here with default values):
 
 <table>
     <tr>
-            <td>Default web page</td>
-            <td>Default Resources Host</td>
+        <th>Default web page</td>
+        <th>Default Resources Host</td>
     </tr>
 
     <tr>
-        <th>
-            <td>http://cdn.test.korolczuk.fr/from-host.html</td>
-            <td>http://cdn.test.korolczuk.fr/</td>
-        </th>
+        <td>http://cdn.test.korolczuk.fr/from-host.html</td>
+        <td>http://cdn.test.korolczuk.fr/</td>
     </tr>
 
     <tr>
-        <th>
-            <td>http://cdn.test.korolczuk.fr/from-cdn.html</td>
-            <td>http://cdn.test.korolczuk.fr/</td>
-        </th>
+        <td>http://cdn.test.korolczuk.fr/from-cdn.html</td>
+        <td>http://cdn.test.korolczuk.fr/</td>
     </tr>
 
     <tr>
-            <td>http://test.korolczuk.fr/from-host.html</td>
-            <td>http://test.korolczuk.fr/</td>
+        <td>http://test.korolczuk.fr/from-host.html</td>
+        <td>http://test.korolczuk.fr/</td>
     </tr>
 
     <tr>
-            <td>http://test.korolczuk.fr/from-server.html</td>
-            <td>http://server.test.korolczuk.fr/</td>
+        <td>http://test.korolczuk.fr/from-server.html</td>
+        <td>http://server.test.korolczuk.fr/</td>
     </tr>
 </table>
 
