@@ -22,10 +22,21 @@ Installing
 - Configure the Apache web server accordingly to your settings (or any other web server with a configuration
   equivalent to the one in www/.htaccess).
 
-- Configure the CDN accordingly to you settings.
+- Configure your DNS accordingly to you settings. Wait for propagation (depends of your DNS configuration, often
+  up to 24 or 48 hours).
 
-- Launch each test at least (using your browser or running this performance suite) in order to force the CDN data
-  upload.
+- Get [Chrome WebDriver (aka ChromeDriver)](https://code.google.com/p/chromedriver/ "Chrome WebDriver"), install and
+  launch it (needed in the default code configuration, see `webdriver/index.php`, `$webDrivers` to modify default
+  behavior).
+
+- Get [Selenium WebDriver (aka Selenium)][http://docs.seleniumhq.org/docs/03_webdriver.jsp "Selenium"), install and
+  launch it (optional, see `webdriver/index.php`, `$webDrivers` to modify default behavior).
+
+- Get [any other WebDriver](https://code.google.com/p/selenium/w/list?q=label:WebDriver "Selenium WebDrivers"), install
+  and launch it (optional, see `webdriver/index.php`, `$webDrivers` to modify default behavior).
+
+- Launch each test at least (using your favorite browser or running this performance suite) in order to force the CDN
+  data upload.
 
 Principle
 ---------
