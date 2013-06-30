@@ -1,0 +1,8 @@
+<IfModule pagespeed_module>
+    ModPagespeed off
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header unset Etag
+    Header set Cache-control "public, max-age=3600"
+</IfModule>

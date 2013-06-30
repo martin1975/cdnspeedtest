@@ -1,0 +1,5 @@
+# Ignore Chrome WebDriver log
+chromedriver.log
+
+# Don't include facebook/php-webdriver, get it from GitHub otherwise
+php-webdriver/
